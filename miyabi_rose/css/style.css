@@ -1,0 +1,83 @@
+@import url(reset.css);
+
+@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville');
+
+.header{
+	color: white;
+	height: 120px;
+	background-color: #b34d6e;
+	text-align: center;
+	font-family: 'Libre Baskerville', serif;	
+}
+.heading1{
+	text-transform: uppercase;
+	line-height: 80px;
+	font-size: 60px;
+}
+.heading2{
+	text-transform: unset;
+	line-height: 40px;
+	font-size: 23px;
+}
+.photo{
+	height: 500px;
+	background-image: url(../img/miabi.jpg);
+	background-size: cover;
+	background-position: center top;
+	background-attachment: fixed;
+}
+.linked{
+	height: 90px;
+	background-color: #b34d6e;
+	text-align: center;
+	line-height: 90px;
+	border-top: 5px dotted rgba(255, 255, 255, 0.3);
+	border-bottom: 5px dotted rgba(255, 255, 255, 0.3);
+	font-size: 20px;
+	font-family: 'Libre Baskerville', serif;
+}
+a{
+	color: white;
+	text-decoration: none;
+}
+.text{
+    height: 800px;
+    background-image: linear-gradient(#ffe6e9, #edf2f7);
+    font-family: 'Libre Baskerville', serif;
+}
+.heading3{
+	height: 70px;
+	line-height: 80px;
+	border-left: 60px solid transparent;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Libre Baskerville', serif;
+}
+.paragraph{
+	height: 120px;
+	line-height: 40px;
+	border-left: 60px solid transparent;
+    font-size: 15px;
+    font-family: 'Libre Baskerville', serif;
+}
+.empty{
+	height: 40px;
+}
+.list{
+	height: 420px;
+	line-height: 30px;
+	border-left: 60px solid transparent;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'Libre Baskerville', serif;
+}
+.footer{
+	color: white;
+	height: 80px;
+	background-color: #b34d6e;
+	line-height: 80px;
+	border-left: 60px solid transparent;
+	font-size: 20px;
+	font-weight: bold;
+	font-family: 'Libre Baskerville', serif;
+}
